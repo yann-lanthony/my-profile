@@ -1,0 +1,103 @@
+body {
+  background: rgb(220,220,220);
+  color: black;
+}
+
+h1 {
+  color: indianred;
+  font-size: 28px;
+  font-weight: 900;
+  font-family: helvitia;
+
+}
+a {
+  font-family: 'Times', sans-serif;
+  color: indianred;
+  font-weight: 600;
+  font-size: 16px;
+}
+h2 {
+  color: indianred;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 500;
+  font-family: helvitia;
+}
+h3 {
+  color: indianred;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 500;
+  font-family: helvitia;
+}
+
+h4 {
+  color: indianred;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 500;
+  font-family: helvitia;
+}
+h5 {
+  color: indianred;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 500;
+  font-family: helvitia;
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 3px 3px 3px 4px darkgrey
+}
+
+.img-circle {
+  border-radius: 40%;
+}
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: indianred;
+}
+.list-inline i:hover {
+  color: black;
+
+  
